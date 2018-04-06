@@ -4,13 +4,13 @@
 # Как использовать
 Аргументы a, b и c - обязательные.
 На выходе функция выдает кортеж с корнями(или их отсутствие).
-```bash
+```python
 from math import sqrt
 from quadratic_equation import get_roots
 
 ...
 
-$print(get_roots(a, b, c))
+print(get_roots(a, b, c))
 (-3.0, 1.0)
 ```
 
